@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Real Time Graph</title>
+  <link rel="stylesheet" href="https://cdn.rawgit.com/novus/nvd3/v1.8.1/build/nv.d3.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+  <div id="graph">
+    <svg></svg>
+  </div>
+
+<div class="controls" role="group" aria-label="Basic example">
+  <button id="happy" class="btn btn-primary">Happy</button>
+  <button id="ok" class="btn btn-warning">OK</button>
+  <button id="sad" class="btn btn-danger">Sad</button>
+</div>
+
+
+  <!-- vendor scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/nvd3/1.8.5/nv.d3.min.js"></script>
+
+
+  <script src="https://www.gstatic.com/firebasejs/3.7.6/firebase.js"></script>
+
+
+  <script src="./scripts/main.js"></script>
+</body>
+</html>
